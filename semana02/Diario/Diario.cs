@@ -13,10 +13,10 @@ public class Diario
 
     public void ExibirTodos()
     {
-        if (_resitros.Count == 0)
+        if (_registros.Count == 0)
         {
             Console.WriteLine("\nO diário está vazio.\n");
             return;
         }
-        
+
     }
