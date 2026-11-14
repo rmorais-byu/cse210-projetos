@@ -8,7 +8,7 @@ public class Diario
 
     public void AdicionarRegistro(Registro novoRegistro)
     {
-        _registros.Add(novoRegistro):
+        _registros.Add(novoRegistro);
     }
 
     public void ExibirTodos()
@@ -27,7 +27,7 @@ public class Diario
 
     public void SalvarNoArquivo(string arquivo)
     {
-        using (StreamWriter outputFile - new StreamWriter(arqvui))
+        using (StreamWriter outputFile = new StreamWriter(arquivo))
         {
             foreach (Registro reg in _registros)
             {
