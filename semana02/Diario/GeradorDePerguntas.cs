@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-public class GeradorPerguntas
+public class GeradorDePerguntas
 {
     private List<string> _perguntas = new List<string>()
     {
